@@ -17,7 +17,7 @@ Feel free to contact me by mail: guilherme.farto@gmail.com
 ## Fibonacci Memoization (fibonacci-memoization.py)
 > Based on the concepts of Fibonacci sequence and Memoization approach - an optimization technique based on storing the results of expensive function calls and returning the cached result when the same inputs occur again
 
-Usage (simulation of Fibonacci sequence **without memoization**):
+Basic usage:
 ```python
 python fibonacci-memoization.py [-h] -i INDEX [-m]
 ```
