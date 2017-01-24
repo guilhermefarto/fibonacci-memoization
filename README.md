@@ -22,7 +22,7 @@ Basic usage:
 python fibonacci-memoization.py [-h] -i INDEX [-m]
 ```
 
-The arguments shoud be:
+The arguments are:
 
 `-i INDEX, --index INDEX` *(required)*
 * index of fibonacci sequence number to be calculated
