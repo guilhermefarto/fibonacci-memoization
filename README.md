@@ -63,6 +63,12 @@ The `snippet` is used to retrieve (or get) a value by key in a dictionary:
  value = cache[key]
 ```
 
+The `snippet` is used to check (or inspect) if a key is present in a dictionary:
+
+```python
+ has_key = key in cache
+```
+
 ### Fibonacci Memoization method
 
 The concept of Memoization is also easily applied with the use of dictionaries in Python in addition to the simple implementation of the Fibonacci sequence. The same idea can be reused Java platform (or other platforms) by implementing a Map/HashMap feature.
