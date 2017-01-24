@@ -84,6 +84,6 @@ Output:
   The result for fibonacci(30) is 832040 - calculated in 0.00811 seconds
 ```
 
-It is important to highlight the relevant reduction of time when compared to the process of calculating the Fibonacci sequence of the number 30 without memoization (1.25 seconds) and with memoization (0.00811 seconds).
+It is important to highlight the relevant reduction of time when compared to the process of calculating the Fibonacci sequence of the number 30 *without memoization (1.25 seconds)* and *with memoization (0.00811 seconds)*.
 
 The same concept of memoization can be used in numerous other projects that use recursion-based approaches.
