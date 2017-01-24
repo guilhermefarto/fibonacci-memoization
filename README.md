@@ -38,16 +38,26 @@ The respective implementation in the Python platform can be achieved with the us
 The dictionary key will be the number value (n-th or index) and the dictionary value will be the result of the Fibonacci calculation for that number.
 
 In Python platform, a empty dictionary can be create in two ways:
-* 
+ 
 ```python
-cache = dict()
+  cache = dict()
 ```
-;
-* 
+
+or
+
 ```python
-cache = {}
+  cache = {}
 ```
-;
+
+The following `snippet` is used to add a new key-value in a dictionary:
+```python
+cache[key] = value
+```
+
+The following `snippet` is used to retrieve (or get) a value by key in a dictionary:
+```python
+  value = cache[key]
+```
 
 <a name="all-usages"></a>
 ## Usages
