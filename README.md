@@ -42,7 +42,7 @@ Output:
 
 ```
   Fibonacci Memoization
-  The result for fibonacci(30) is 832040 - calculated in 1.29231 seconds
+  The result for fibonacci(30) is 832040 - calculated in 1.36910 seconds
 ```
 
 ### Usage (simulation of Fibonacci sequence with memoization):
@@ -81,9 +81,9 @@ Output:
   using memoization for 26 = 121393
   using memoization for 27 = 196418
   using memoization for 28 = 317811
-  The result for fibonacci(30) is 832040 - calculated in 0.00859 seconds
+  The result for fibonacci(30) is 832040 - calculated in 0.00827 seconds
 ```
 
-It is important to highlight the relevant reduction of time when compared to the process of calculating the n-th Fibonacci number (e.g., 30) `without memoization (1.29231 seconds)` and `with memoization (0.00859 seconds)`.
+It is important to highlight the relevant reduction of time when compared to the process of calculating the n-th Fibonacci number (e.g., 30) `without memoization (1.36910 seconds)` and `with memoization (0.00827 seconds)`.
 
 The same concept of memoization can be used in numerous other projects that use recursion-based approaches.
