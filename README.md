@@ -30,7 +30,22 @@ The arguments shoud be:
 `-m, --memoization` *(optional)*
 * use memoization
 
-<a name="fibonacci-memoization"></a>
+<a name="fibonacci-memoization-implementation"></a>
+## Implementation
+
+The respective implementation in the Python platform can be achieved with the use of dictionaries - data structures similar to a Map (or HashMap) that stores keys and values.
+
+The dictionary key will be the number value (n-th or index) and the dictionary value will be the result of the Fibonacci calculation for that number.
+
+In Python platform, a empty dictionary can be create in two ways:
+* ```python
+cache = dict()
+```;
+* ```python
+cache = {}
+```;
+
+<a name="all-usages"></a>
 ## Usages
 
 ### Usage (simulation of Fibonacci sequence without memoization):
