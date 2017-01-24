@@ -1,7 +1,5 @@
 # fibonacci-memoization
 
-Python project for implementation of Fibonacci sequence with concepts of Memoization - an optimization technique based on storing the results of expensive function calls and returning the cached result when the same inputs occur again
-
 Python project for
 * (i) [Fibonacci Memoization](#fibonacci-memoization) using open source scikit-learn library ([examples](#all-examples))
 
@@ -17,7 +15,7 @@ Feel free to contact me by mail: guilherme.farto@gmail.com
 
 <a name="fibonacci-memoization"></a>
 ## Fibonacci Memoization (fibonacci-memoization.py)
-> Based on the concepts of Memoization - an optimization technique based on storing the results of expensive function calls and returning the cached result when the same inputs occur again
+> Based on the concepts of Fibonacci sequence and Memoization approach - an optimization technique based on storing the results of expensive function calls and returning the cached result when the same inputs occur again
 
 Usage (simulation of Fibonacci sequence **without memoization**):
 ```python
@@ -39,7 +37,7 @@ python fibonacci-memoization.py -i 30
 
 Output:
 
-```python
+```
   Fibonacci Memoization
   The result for fibonacci(30) is 832040 - calculated in 1.25 seconds
 ```
@@ -51,7 +49,7 @@ python fibonacci-memoization.py -i 30 -m
 
 Output:
 
-```python
+```
   Fibonacci Memoization
   using memoization for 2 = 1
   using memoization for 3 = 2
