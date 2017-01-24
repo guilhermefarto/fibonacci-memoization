@@ -1,7 +1,7 @@
 # fibonacci-memoization
 
 Python project for
-* (i) [Fibonacci Memoization](#fibonacci-memoization) using open source scikit-learn library ([examples](#all-examples))
+* (i) [Fibonacci Memoization](#fibonacci-memoization) using open source scikit-learn library ([usages](#all-usages))
 
 ## Dependencies
 
@@ -30,7 +30,10 @@ The arguments shoud be:
 `-m, --memoization` *(optional)*
 * use memoization
 
-Usage (simulation of Fibonacci sequence **without memoization**):
+<a name="fibonacci-memoization"></a>
+## Usages
+
+### Usage (simulation of Fibonacci sequence without memoization):
 ```python
 python fibonacci-memoization.py -i 30
 ```
@@ -42,7 +45,7 @@ Output:
   The result for fibonacci(30) is 832040 - calculated in 1.25 seconds
 ```
 
-Usage (simulation of Fibonacci sequence **with memoization**):
+### Usage (simulation of Fibonacci sequence with memoization):
 ```python
 python fibonacci-memoization.py -i 30 -m
 ```
