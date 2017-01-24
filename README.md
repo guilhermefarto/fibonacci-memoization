@@ -33,6 +33,8 @@ The arguments shoud be:
 <a name="fibonacci-memoization-implementation"></a>
 ## Implementation
 
+### Python Dictionary
+
 The respective implementation in the Python platform can be achieved with the use of dictionaries - data structures similar to a Map (or HashMap) that stores keys and values.
 
 The dictionary key will be the number value (n-th or index) and the dictionary value will be the result of the Fibonacci calculation for that number.
@@ -49,16 +51,38 @@ or
   cache = {}
 ```
 
-The following `snippet` is used to add a new key-value in a dictionary:
+The `snippet` is used to add a new key-value in a dictionary:
 
 ```python
  cache[key] = value
 ```
 
-The following `snippet` is used to retrieve (or get) a value by key in a dictionary:
+The `snippet` is used to retrieve (or get) a value by key in a dictionary:
 
 ```python
  value = cache[key]
+```
+
+### Fibonacci Memoization method
+
+The concept of Memoization is also easily applied with the use of dictionaries in Python in addition to the simple implementation of the Fibonacci sequence. The same idea can be reused Java platform (or other platforms) by implementing a Map/HashMap feature.
+
+The following `snippet` exemplifies the adoption of Memoization in a method of calculating the n-th Fibonacci number:
+
+```python
+def fibonacci(index, use_memoization=False):
+	if index <= 1:
+		return index
+
+	if use_memoization:
+		if index in cache:
+			print 'using memoization for %d = %d' % (index, cache[index])
+		else:
+			cache[index] = fibonacci(index-1, use_memoization) + fibonacci(index-2, use_memoization)
+		
+		return cache[index]
+
+	return fibonacci(index-1, use_memoization) + fibonacci(index-2, use_memoization)
 ```
 
 <a name="all-usages"></a>
