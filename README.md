@@ -1,7 +1,7 @@
 # fibonacci-memoization
 
 Python project for
-* (i) [Fibonacci Memoization](#fibonacci-memoization) using open source scikit-learn library ([usages](#all-usages))
+* (i) [Fibonacci Memoization](#fibonacci-memoization) - example of implementation of the concepts of Memoization in the context of the Fibonacci sequence ([usages](#all-usages))
 
 ## Dependencies
 
