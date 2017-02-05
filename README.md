@@ -1,7 +1,7 @@
 # fibonacci-memoization
 
 Python project for
-* (i) [Fibonacci Memoization](#fibonacci-memoization) - example of implementation of the concepts of Memoization in the context of the Fibonacci sequence ([usages](#all-usages))
+* (i) [Fibonacci Memoization](#fb-memoization) - example of implementation of the concepts of Memoization in the context of the Fibonacci sequence ([usages](#all-usages))
 
 ## Dependencies
 
@@ -13,7 +13,7 @@ Feel free to contact me by mail: guilherme.farto@gmail.com
 
 ---
 
-<a name="fibonacci-memoization"></a>
+<a name="fb-memoization"></a>
 ## Fibonacci Memoization (fibonacci-memoization.py)
 > Based on the concepts of Fibonacci sequence and Memoization approach - an optimization technique based on storing the results of expensive function calls and returning the cached result when the same inputs occur again
 
